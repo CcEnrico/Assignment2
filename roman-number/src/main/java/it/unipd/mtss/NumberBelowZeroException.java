@@ -6,6 +6,7 @@ package it.unipd.mtss;
 
 public class NumberBelowZeroException extends Exception {
     public NumberBelowZeroException() {
-        super("ERRORE: i numeri sotto lo 0 non sono accettati");
+        super("ERRORE: i numeri sotto lo 0 non sono accettati"
+        );
     }
 }

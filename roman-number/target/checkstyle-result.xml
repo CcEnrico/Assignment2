@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="9.3">
-<file name="/Users/carmelo/Desktop/Assignment 2 CONTAINER/Assignment2/roman-number/src/main/java/it/unipd/mtss/RomanToAsciiPrinter.java">
-</file>
-<file name="/Users/carmelo/Desktop/Assignment 2 CONTAINER/Assignment2/roman-number/src/main/java/it/unipd/mtss/InvalidLetterException.java">
+<file name="/home/enrico/Scrivania/Assignment2/roman-number/src/main/java/it/unipd/mtss/RomanPrinter.java">
 </file>
 </checkstyle>

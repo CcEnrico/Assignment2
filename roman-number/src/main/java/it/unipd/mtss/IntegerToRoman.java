@@ -5,12 +5,19 @@
 package it.unipd.mtss;
 
 public class IntegerToRoman {
-    private static final int[] VALUES = { 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 };
-    private static final String[] SYMBOLS = { "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
+    private static final int[] VALUES = { 900, 500, 400, 100, 90,
+            50, 40, 10, 9, 5, 4, 1 };
+    private static final String[] SYMBOLS = { "CM", "D", "CD", "C",
+            "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
 
-    public String intToRoman(int number) throws NumberNegativeExeption, NumberOverOneThousand {
-        if (number < 0) { throw new NumberNegativeExeption(); } // se numero e' negativo
-        else if (number > 999) { throw new NumberOverOneThousand();} // se numero supera i primi 1000 interi ovvero (0 ... 999)
+    public static String convert(int number)
+            throws NumberBelowZeroException,
+            NumberOverOneThousand
+    {
+        // se numero e' negativo
+        if (number < 0) { throw new NumberBelowZeroException(); }
+        // se numero supera i primi 1000 interi ovvero (0 ... 999)
+        else if (number > 999) { throw new NumberOverOneThousand();}
 
         StringBuilder roman = new StringBuilder();
         int current = number;
