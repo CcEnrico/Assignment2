@@ -1,1 +1,4 @@
-it/unipd/mtss/App.class
+it/unipd/mtss/NumberOverOneThousand.class
+it/unipd/mtss/NumberBelowZeroException.class
+it/unipd/mtss/RomanToAsciiPrinter.class
+it/unipd/mtss/InvalidLetterException.class

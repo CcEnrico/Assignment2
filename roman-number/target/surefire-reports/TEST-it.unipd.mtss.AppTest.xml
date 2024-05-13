@@ -1,57 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.AppTest" time="0.021" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.AppTest" time="0.006" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/enrico/Scrivania/Assignment2/roman-number/target/test-classes:/home/enrico/Scrivania/Assignment2/roman-number/target/classes:/home/enrico/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
-    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="java.class.path" value="/Users/carmelo/Desktop/Assignment 2 CONTAINER/Assignment2/roman-number/target/test-classes:/Users/carmelo/Desktop/Assignment 2 CONTAINER/Assignment2/roman-number/target/classes:/Users/carmelo/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="Unknown"/>
-    <property name="os.name" value="Linux"/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="os.name" value="Mac OS X"/>
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IT"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/enrico/Scrivania/Assignment2/roman-number/target/surefire/surefirebooter6264642677789459801.jar /home/enrico/Scrivania/Assignment2/roman-number/target/surefire 2024-05-13T13-42-12_022-jvmRun1 surefire14855653938845685648tmp surefire_013438952224497269551tmp"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/zulu-21.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/carmelo/Desktop/Assignment 2 CONTAINER/Assignment2/roman-number/target/surefire/surefirebooter105305065933243451.jar /Users/carmelo/Desktop/Assignment 2 CONTAINER/Assignment2/roman-number/target/surefire 2024-05-13T15-34-38_964-jvmRun1 surefire8335998718351967713tmp surefire_0370618602115484870tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/enrico/Scrivania/Assignment2/roman-number/target/test-classes:/home/enrico/Scrivania/Assignment2/roman-number/target/classes:/home/enrico/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/carmelo/Desktop/Assignment 2 CONTAINER/Assignment2/roman-number/target/test-classes:/Users/carmelo/Desktop/Assignment 2 CONTAINER/Assignment2/roman-number/target/classes:/Users/carmelo/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/home/enrico"/>
+    <property name="user.home" value="/Users/carmelo"/>
     <property name="user.language" value="it"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2024-01-16"/>
-    <property name="java.home" value="/usr/lib/jvm/java-21-openjdk-amd64"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/zulu-21.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/home/enrico/Scrivania/Assignment2/roman-number"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="basedir" value="/Users/carmelo/Desktop/Assignment 2 CONTAINER/Assignment2/roman-number"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/enrico/Scrivania/Assignment2/roman-number/target/surefire/surefirebooter6264642677789459801.jar"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/carmelo/Desktop/Assignment 2 CONTAINER/Assignment2/roman-number/target/surefire/surefirebooter105305065933243451.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="21.0.2+13-Ubuntu-123.10.1"/>
-    <property name="user.name" value="enrico"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.3+9-LTS"/>
+    <property name="user.name" value="carmelo"/>
     <property name="stdout.encoding" value="UTF-8"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="6.5.0-28-generic"/>
+    <property name="os.version" value="14.3.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="localRepository" value="/home/enrico/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="Unknown"/>
-    <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="java.version" value="21.0.2"/>
-    <property name="user.dir" value="/home/enrico/Scrivania/Assignment2/roman-number"/>
-    <property name="os.arch" value="amd64"/>
+    <property name="java.vendor.version" value="Zulu21.34+19-CA"/>
+    <property name="localRepository" value="/Users/carmelo/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="/var/folders/63/0sd09tw96lvc5_h9w1xcvt8w0000gn/T/"/>
+    <property name="java.version" value="21.0.3"/>
+    <property name="user.dir" value="/Users/carmelo/Desktop/Assignment 2 CONTAINER/Assignment2/roman-number"/>
+    <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.library.path" value="/Users/carmelo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="UTF-8"/>
-    <property name="java.vendor" value="Private Build"/>
-    <property name="java.vm.version" value="21.0.2+13-Ubuntu-123.10.1"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="21.0.3+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testApp" classname="it.unipd.mtss.AppTest" time="0.009"/>
+  <testcase name="testApp" classname="it.unipd.mtss.AppTest" time="0.003"/>
 </testsuite>
