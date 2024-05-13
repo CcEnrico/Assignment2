@@ -15,6 +15,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
   <build>
   <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults
 (may be moved to parent pom) -->
@@ -59,6 +60,10 @@ https://maven.apache.org/ref/current/maven-core/defaultbindings.html#Plugin_bind
   <artifactId>maven-project-info-reports-plugin</artifactId>
   <version>3.0.0</version>
   </plugin>
+  </plugins>
+  </pluginManagement>
+    <plugins>
+
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-checkstyle-plugin</artifactId>
@@ -77,8 +82,7 @@ https://maven.apache.org/ref/current/maven-core/defaultbindings.html#Plugin_bind
         </execution>
       </executions>
     </plugin>
-  </plugins>
-  </pluginManagement>
+    </plugins>
   </build>
 </project>
 
