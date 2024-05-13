@@ -63,7 +63,6 @@ https://maven.apache.org/ref/current/maven-core/defaultbindings.html#Plugin_bind
   </plugins>
   </pluginManagement>
     <plugins>
-    <plugins>
         <plugin>
             <groupId>org.jacoco</groupId>
             <artifactId>jacoco-maven-plugin</artifactId>
