@@ -16,4 +16,4 @@ jobs:
             - name: Build with Maven
               run: mvn -B install --file roman-number/pom.xml jacoco:report
             - name: Coveralls
-              run: mvn -B coveralls:report -D repoToken=${{ secrets.COVERALLS_REPO_SECRET }}
+              run: mvn -B com.github.hazendaz.maven:coveralls-maven-plugin:4.5.0-M2:report -DrepoToken=${{ secrets.COVERALLS_REPO_SECRET }}
