@@ -15,7 +15,7 @@
     <module name="LineLength"/>
     <module name="FileTabCharacter"/>
     <module name="HeaderCheck">
-        <property name="headerFile" value="config/header.txt"/>
+        <property name="headerFile" value="roman-number/config/header.txt"/>
         <property name="charset" value="UTF-8"/>
     </module>
 
