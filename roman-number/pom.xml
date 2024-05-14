@@ -82,6 +82,15 @@ https://maven.apache.org/ref/current/maven-core/defaultbindings.html#Plugin_bind
   </plugins>
   </pluginManagement>
     <plugins>
+
+        <plugin>
+            <groupId>com.github.hazendaz.maven</groupId>
+            <artifactId>coveralls-maven-plugin</artifactId>
+            <version>4.5.0-M2</version>
+            <configuration>
+                <repoToken>uqbS9qNS8yDTMSlW5ktznzKNPQ2nMilb0</repoToken>
+            </configuration>
+        </plugin>
         <plugin>
             <groupId>org.jacoco</groupId>
             <artifactId>jacoco-maven-plugin</artifactId>
@@ -101,14 +110,6 @@ https://maven.apache.org/ref/current/maven-core/defaultbindings.html#Plugin_bind
                 </execution>
             </executions>
         </plugin>
-        <plugin>
-        <groupId>com.github.hazendaz.maven</groupId>
-        <artifactId>coveralls-maven-plugin</artifactId>
-        <version>4.5.0-M2</version>
-        <configuration>
-            <repoToken>uqbS9qNS8yDTMSlW5ktznzKNPQ2nMilb0</repoToken>
-        </configuration>
-    </plugin>
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-checkstyle-plugin</artifactId>
