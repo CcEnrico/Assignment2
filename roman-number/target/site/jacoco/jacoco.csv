@@ -1,0 +1,6 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+roman-number,it.unipd.mtss,NumberBelowZeroException,0,4,0,0,0,2,0,1,0,1
+roman-number,it.unipd.mtss,IntegerToRoman,3,151,0,8,1,11,1,6,1,2
+roman-number,it.unipd.mtss,NumberOverOneThousand,0,4,0,0,0,2,0,1,0,1
+roman-number,it.unipd.mtss,InvalidLetterException,11,0,0,0,2,0,1,0,1,0
+roman-number,it.unipd.mtss,RomanPrinter,10,289,2,8,3,21,3,6,1,3

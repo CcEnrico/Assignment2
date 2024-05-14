@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>RomanPrinter.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">roman-number</a> &gt; <a href="index.source.html" class="el_package">it.unipd.mtss</a> &gt; <span class="el_source">RomanPrinter.java</span></div><h1>RomanPrinter.java</h1><pre class="source lang-java linenums">////////////////////////////////////////////////////////////////////
+// [Carmelo] [Russello] [2076421]
+// [Enrico] [Cottini] [2077993]
+////////////////////////////////////////////////////////////////////
+package it.unipd.mtss;
+
+import java.util.Arrays;
+import java.util.HashMap;
+
+<span class="nc" id="L10">public class RomanPrinter {</span>
+<span class="fc" id="L11">    private static HashMap&lt;Character, String[]&gt; roman_number_map = null;</span>
+    static {
+<span class="fc" id="L13">        HashMap&lt;Character,String[]&gt; conMap = new HashMap&lt;Character,String[]&gt;();</span>
+<span class="fc" id="L14">        conMap.put('I', new String[] {</span>
+                &quot; _____ &quot;,
+                &quot;|_   _|&quot;,
+                &quot;  | |  &quot;,
+                &quot;  | |  &quot;,
+                &quot; _| |_ &quot;,
+                &quot;|_____|&quot;
+        });
+<span class="fc" id="L22">        conMap.put('V', new String[] {</span>
+                &quot;__      __&quot;,
+                &quot;\\ \\    / /&quot;,
+                &quot; \\ \\  / / &quot;,
+                &quot;  \\ \\/ /  &quot;,
+                &quot;   \\  /   &quot;,
+                &quot;    \\/    &quot;
+        });
+<span class="fc" id="L30">        conMap.put('X', new String[] {</span>
+                &quot;__   __&quot;,
+                &quot;\\ \\ / /&quot;,
+                &quot; \\ V / &quot;,
+                &quot;  &gt; &lt;  &quot;,
+                &quot; / . \\ &quot;,
+                &quot;/_/ \\_\\&quot;
+        });
+<span class="fc" id="L38">        conMap.put('L', new String[] {</span>
+                &quot; _      &quot;,
+                &quot;| |     &quot;,
+                &quot;| |     &quot;,
+                &quot;| |     &quot;,
+                &quot;| |____ &quot;,
+                &quot;|______|&quot; });
+<span class="fc" id="L45">        conMap.put('C', new String[] {</span>
+                &quot;  _____ &quot;,
+                &quot; / ____|&quot;,
+                &quot;| |     &quot;,
+                &quot;| |     &quot;,
+                &quot;| |____ &quot;,
+                &quot; \\_____|&quot;
+        });
+<span class="fc" id="L53">        conMap.put('D', new String[] {</span>
+                &quot; _____  &quot;,
+                &quot;|  __ \\ &quot;,
+                &quot;| |  | |&quot;,
+                &quot;| |  | |&quot;,
+                &quot;| |__| |&quot;,
+                &quot;|_____/ &quot;
+        });
+<span class="fc" id="L61">        roman_number_map = conMap;</span>
+<span class="fc" id="L62">    }</span>
+
+    public static String print(int num)
+            throws NumberBelowZeroException,
+            NumberOverOneThousand,
+            InvalidLetterException
+    {
+<span class="fc" id="L69">        return printAsciiArt(IntegerToRoman.convert(num));</span>
+    }
+
+    private static String printAsciiArt(String romanNumber)
+            throws InvalidLetterException
+    {
+<span class="pc bpc" id="L75" title="1 of 2 branches missed.">        if (romanNumber.isEmpty()) {</span>
+<span class="nc" id="L76">            return &quot;&quot;;</span>
+        }
+<span class="fc bfc" id="L78" title="All 2 branches covered.">        for (int i = 0; i &lt; romanNumber.length(); i++) {</span>
+            // controlla la validita' della sringa
+            // di Lettere di numeri romani
+            // carattere per carattere
+<span class="fc" id="L82">            char c = romanNumber.charAt(i);</span>
+<span class="pc bpc" id="L83" title="1 of 2 branches missed.">            if (!(Arrays.asList('D','C','L','X','V','I').contains(c)))</span>
+            {
+<span class="nc" id="L85">                throw new InvalidLetterException(c);</span>
+            }
+        }
+
+        // Per ogni riga (ovvero 6) viene creato uno strato di asciart
+        // prende la prima riga di asciart per ogni lettera
+        // del numero romano intero e la concatena,
+        // poi si passa alla seconda riga e cosi via fino alla sesta
+<span class="fc" id="L93">        StringBuilder asciiArt = new StringBuilder();</span>
+<span class="fc bfc" id="L94" title="All 2 branches covered.">        for (int i = 0; i &lt; 6; i++) {</span>
+<span class="fc bfc" id="L95" title="All 2 branches covered.">            for (int j = 0; j &lt; romanNumber.length(); j++) {</span>
+<span class="fc" id="L96">                asciiArt.append(roman_number_map.get(romanNumber.charAt(j))[i]);</span>
+            }
+<span class="fc" id="L98">            asciiArt.append('\n');</span>
+        }
+<span class="fc" id="L100">        return asciiArt.toString();</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
