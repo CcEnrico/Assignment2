@@ -1,9 +1,0 @@
-#Mon May 13 17:55:40 CEST 2024
-/home/enrico/Scrivania/Assignment2/roman-number/src/main/java/it/unipd/mtss/IntegerToRoman.java=1715609825194
-/home/enrico/Scrivania/Assignment2/roman-number/src/main/java/it/unipd/mtss/InvalidLetterException.java=1715608438946
-/home/enrico/Scrivania/Assignment2/roman-number/src/main/java/it/unipd/mtss/NumberBelowZeroException.java=1715609949243
-/home/enrico/Scrivania/Assignment2/roman-number/src/main/java/it/unipd/mtss/NumberOverOneThousand.java=1715609949227
-/home/enrico/Scrivania/Assignment2/roman-number/src/main/java/it/unipd/mtss/RomanPrinter.java=1715615731040
-/home/enrico/Scrivania/Assignment2/roman-number/src/main/java/it/unipd/mtss/RomanToAsciiPrinter.java=1715608438946
-configuration*?=C443C82560A8BB53109FAC512BC993307F73E1AC
-module-resource*?\:file\:/home/enrico/Scrivania/Assignment2/roman-number/config/header.txt=47D630104C0FBD68F3CC978D7130B2BF912FC15

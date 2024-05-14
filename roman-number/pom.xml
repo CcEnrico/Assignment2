@@ -97,6 +97,9 @@ https://maven.apache.org/ref/current/maven-core/defaultbindings.html#Plugin_bind
             <groupId>org.eluder.coveralls</groupId>
             <artifactId>coveralls-maven-plugin</artifactId>
             <version>4.3.0</version>
+            <configuration>
+                <repoToken>qNHnIWoc0E6WXWn8WILLf4uyrfjSqGrBJ</repoToken>
+            </configuration>
             <dependencies>
                 <dependency>
                     <groupId>javax.xml.bind</groupId>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.RomanPrinterTest" time="0.141" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.RomanPrinterTest" time="0.149" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/enrico/Scrivania/Assignment2/roman-number/target/test-classes:/home/enrico/Scrivania/Assignment2/roman-number/target/classes:/home/enrico/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/home/enrico/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.class.path" value="/home/enrico/Scrivania/fork/Assignment2/roman-number/target/test-classes:/home/enrico/Scrivania/fork/Assignment2/roman-number/target/classes:/home/enrico/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/home/enrico/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="java.vm.vendor" value="Private Build"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="Unknown"/>
@@ -12,9 +12,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IT"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/enrico/Scrivania/Assignment2/roman-number/target/surefire/surefirebooter18198318933610874250.jar /home/enrico/Scrivania/Assignment2/roman-number/target/surefire 2024-05-13T17-55-36_940-jvmRun1 surefire9057452917359608991tmp surefire_02775654584574223314tmp"/>
+    <property name="sun.java.command" value="/home/enrico/Scrivania/fork/Assignment2/roman-number/target/surefire/surefirebooter2144730694231557009.jar /home/enrico/Scrivania/fork/Assignment2/roman-number/target/surefire 2024-05-14T10-49-32_887-jvmRun1 surefire531359490654756737tmp surefire_09467387539985098355tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/enrico/Scrivania/Assignment2/roman-number/target/test-classes:/home/enrico/Scrivania/Assignment2/roman-number/target/classes:/home/enrico/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/home/enrico/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="surefire.test.class.path" value="/home/enrico/Scrivania/fork/Assignment2/roman-number/target/test-classes:/home/enrico/Scrivania/fork/Assignment2/roman-number/target/classes:/home/enrico/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/home/enrico/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/enrico"/>
     <property name="user.language" value="it"/>
@@ -22,12 +22,12 @@
     <property name="java.version.date" value="2024-01-16"/>
     <property name="java.home" value="/usr/lib/jvm/java-21-openjdk-amd64"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/home/enrico/Scrivania/Assignment2/roman-number"/>
+    <property name="basedir" value="/home/enrico/Scrivania/fork/Assignment2/roman-number"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/enrico/Scrivania/Assignment2/roman-number/target/surefire/surefirebooter18198318933610874250.jar"/>
+    <property name="surefire.real.class.path" value="/home/enrico/Scrivania/fork/Assignment2/roman-number/target/surefire/surefirebooter2144730694231557009.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-Ubuntu-123.10.1"/>
     <property name="user.name" value="enrico"/>
@@ -41,7 +41,7 @@
     <property name="java.vendor.url.bug" value="Unknown"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="21.0.2"/>
-    <property name="user.dir" value="/home/enrico/Scrivania/Assignment2/roman-number"/>
+    <property name="user.dir" value="/home/enrico/Scrivania/fork/Assignment2/roman-number"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
@@ -53,10 +53,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testRomanC" classname="it.unipd.mtss.RomanPrinterTest" time="0.017"/>
+  <testcase name="testRomanC" classname="it.unipd.mtss.RomanPrinterTest" time="0.023"/>
   <testcase name="testRomanD" classname="it.unipd.mtss.RomanPrinterTest" time="0.001"/>
   <testcase name="testRomanI" classname="it.unipd.mtss.RomanPrinterTest" time="0.002"/>
   <testcase name="testRomanL" classname="it.unipd.mtss.RomanPrinterTest" time="0.001"/>
-  <testcase name="testRomanV" classname="it.unipd.mtss.RomanPrinterTest" time="0.001"/>
-  <testcase name="testRomanX" classname="it.unipd.mtss.RomanPrinterTest" time="0.002"/>
+  <testcase name="testRomanV" classname="it.unipd.mtss.RomanPrinterTest" time="0.002"/>
+  <testcase name="testRomanX" classname="it.unipd.mtss.RomanPrinterTest" time="0.001"/>
 </testsuite>
