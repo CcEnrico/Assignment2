@@ -23,6 +23,14 @@
         </dependency>
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>coveralls-repo</id>
+            <url>https://repo.coveralls.io</url>
+        </repository>
+    </repositories>
+
+
     <build>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults
 (may be moved to parent pom) -->
@@ -98,7 +106,7 @@ https://maven.apache.org/ref/current/maven-core/defaultbindings.html#Plugin_bind
             <artifactId>coveralls-maven-plugin</artifactId>
             <version>4.3.0</version>
             <configuration>
-                <repoToken>qNHnIWoc0E6WXWn8WILLf4uyrfjSqGrBJ</repoToken>
+                <repoToken>uqbS9qNS8yDTMSlW5ktznzKNPQ2nMilb0</repoToken>
             </configuration>
             <dependencies>
                 <dependency>
